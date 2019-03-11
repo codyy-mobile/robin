@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context=".activity.MainActivity"
+    android:id="@+id/est">
+
+    <TextView
+        android:id="@+id/publish_and_play"
+        style="@style/simple_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="@string/publish_play"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/camera_and_audio_demon"
+        style="@style/simple_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="@string/CameraDemon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/publish_and_play" />
+
+    <TextView
+        style="@style/simple_txt"
+        android:id="@+id/multiplex_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MultiPlayers"
+        android:clickable="false"
+        app:layout_constraintTop_toBottomOf="@+id/camera_and_audio_demon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/two_publisher"
+        style="@style/simple_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="TwoPublisher"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/camera_2_test" />
+
+    <TextView
+        android:id="@+id/screen_capture_encode"
+        style="@style/simple_txt"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:clickable="false"
+        android:text="ScreenCaptureEncode"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/two_publisher" />
+
+    <TextView
+        android:id="@+id/texture_view_test"
+        style="@style/simple_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="TextureViewTest"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/screen_capture_encode" />
+
+    <TextView
+        android:id="@+id/camera_2_test"
+        style="@style/simple_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="Camera2Test"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/multiplex_player" />
+    <TextView
+        style="@style/simple_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="明日相机测试"
+        android:onClick="ttCameraClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texture_view_test" />
+
+</android.support.constraint.ConstraintLayout>
