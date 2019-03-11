@@ -41,15 +41,15 @@ dependencies {
 //    }
 //}
 
-android.libraryVariants.all { variant ->
-    variant.outputs.all {
-        if (outputFileName.endsWith('-debug.aar')) {
-            outputFileName = "../../../../../../bin/android/RobinSDK_debug.aar"
-        } else if (outputFileName.endsWith('-release.aar')) {
-            outputFileName = "../../../../../../bin/android/RobinSDK.aar"
-        }
-    }
-}
+//android.libraryVariants.all { variant ->
+//    variant.outputs.all {
+//        if (outputFileName.endsWith('-debug.aar')) {
+//            outputFileName = "../../../../../../bin/android/RobinSDK_debug.aar"
+//        } else if (outputFileName.endsWith('-release.aar')) {
+//            outputFileName = "../../../../../../bin/android/RobinSDK.aar"
+//        }
+//    }
+//}
 
 //gradlew assembleRelease
 //---------------------------------------------
