@@ -11,6 +11,9 @@ allprojects {
 
 ```
 dependencies {
-	        implementation 'com.github.codyy-mobile:robin:1.0.3'
+	        implementation 'com.github.codyy-mobile:robin:1.0.4'
 	}
 ```
+### ChangeHistory
+
+- 1.0.4:修复录屏花屏，模糊等问题
