@@ -3,7 +3,7 @@ package com.codyy.release.activity;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.hardware.SensorManager;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -30,8 +30,6 @@ import com.codyy.robinsdk.RBPlayAndroid;
 import com.codyy.robinsdk.RBPublishAndroid;
 import com.codyy.robinsdk.RBSize;
 import com.codyy.robinsdk.impl.RBManagerAndroid;
-
-import org.w3c.dom.Text;
 
 import java.util.Locale;
 

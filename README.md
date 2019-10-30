@@ -11,9 +11,9 @@ allprojects {
 
 ```
 dependencies {
-	        implementation 'com.github.codyy-mobile:robin:1.0.4'
+	        implementation 'com.github.codyy-mobile:robin:1.1.0'
 	}
 ```
 ### ChangeHistory
-
+- 1.1.0:迁移至androidx
 - 1.0.4:修复录屏花屏，模糊等问题
